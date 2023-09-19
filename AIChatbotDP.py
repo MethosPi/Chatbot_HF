@@ -6,8 +6,8 @@ from dotenv import dotenv_values
 
 # Titolo dell'app
 st.set_page_config(page_title="AIChat by DeltaPi")
-os.login_email = st.secrets['EMAIL']
-os.login_pass = st.secrets['PASS']
+login_email = st.secrets['EMAIL']
+login_pass = st.secrets['PASS']
 
 st.title('AIChat by DeltaPi')
 if "messages" not in st.session_state:
