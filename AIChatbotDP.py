@@ -4,7 +4,7 @@ from hugchat.login import Login
 import os
 
 # Titolo dell'app
-st.set_page_config(page_title="AIChat by DeltaPi")
+st.set_page_config(page_title="DP Chatbot")
 login_email = st.secrets['EMAIL']
 login_pass = st.secrets['PASS']
 
