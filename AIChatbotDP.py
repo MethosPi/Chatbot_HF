@@ -2,7 +2,6 @@ import streamlit as st
 from hugchat import hugchat
 from hugchat.login import Login
 import os
-from dotenv import dotenv_values
 
 # Titolo dell'app
 st.set_page_config(page_title="AIChat by DeltaPi")
